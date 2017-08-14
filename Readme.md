@@ -35,7 +35,7 @@ words separated by spaces. The encodings are built word by word from
 left to right. If and only if at a particular point no word at all from
 the dictionary can be inserted, a single digit from the phone number can
 be copied to the encoding instead. Two subsequent digits are never
-allowed, though. To put it differently: In a partial encoding that
+allowed, though. To put it differently: In a partial encoding tha
 currently covers k digits, digit k+1 is encoded by itself if and only if,
 first, digit k was not encoded by a digit and, second, there is no word
 in the dictionary that can be used in the encoding starting at digit k+1.
